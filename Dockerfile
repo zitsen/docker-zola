@@ -19,4 +19,4 @@ WORKDIR /zola
 
 EXPOSE 1111
 
-CMD ["zola", "serve"]
+CMD ["zola", "serve", "-i", "0.0.0.0"]
